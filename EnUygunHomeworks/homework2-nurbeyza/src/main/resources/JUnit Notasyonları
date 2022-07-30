@@ -1,0 +1,22 @@
+JUnit Notasyonları Nelerdir ?
+@BeforeClass
+@AfterClass
+@Before
+@After
+@Test
+@Ignore olmak üzere altıya ayırabiliriz.
+
+
+@Before
+Before notasyonu da test adımlarından önce başlamaktadır. Veri okuması ve testin öncesinde yapılması gereken işlemler test adımlarını hızlandırmak için yani zamandan tasarruf etmek için bu metot da tanımlanır.
+Model ve nesnelerine atama işlemlerinin burada gerçekleştiririz. Bir önceki dersimizde Before notasyonun içerisinde WebDriver tanımlarını ve model atamalarını burada gerçekleştirdik. Örnek olarak aşağıdaki
+tanımlamaya bakabilirsiniz.
+
+@After
+After notasyonu ise test metodlarından sonra çalışmaktadır. After notasyonun da en çok yapılan işlem, test metodlarından sonra her seferinde atanan değerlere null değerler gönderilmektedir.
+
+@Before ve @After notasyonları her test metodundan sonra çalışabilirken @BeforeClass ve @AfterClass bir kere çalışmaktadır.
+
+@Test
+Test notasyonu içerisinde test case’mizde yer alacak adımları tanımlarız. Bir önceki dersimizde test notasyonunun içerisinde yapmış olduğumuz örnek aşağıda yer almaktadır.
+Buradan bu notasyonu ne için kullanılacağını anlayabiliriz.

@@ -1,0 +1,10 @@
+1- Java runtime implements ve extendsten hangisi önce çağrılır?
+İnternet üzerinden net bir bilgiye ulaşamadım. Kendi denemelerim sonucunda extends tanımlamasına , implements'den önce
+yapılmasına izin veriyor. Çalıştırıdğımda ise extends daha önce çağrılıyor.
+
+
+2-internal nedir?
+Araştırmalarım sonucunda internal veri tipinin java dilinde bulunmadığına ulaştım. internal c# üzerinde bulunan bir erişim
+belirleyicidir.
+nternal olarak tanımlanan bir değer; aynı program içerisinden erişilebilir, fakat farklı bir program içerisinden erişilemez durumdadır. 
+Program içerisinde herhangi bir kısıtlaması yoktur.
